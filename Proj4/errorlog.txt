@@ -1,0 +1,6 @@
+
+ERROR: 0:63: '=' :  cannot convert from ' temp int' to ' temp 4-component vector of float'
+ERROR: 0:63: '' : compilation terminated 
+ERROR: 2 compilation errors.  No code generated.
+
+

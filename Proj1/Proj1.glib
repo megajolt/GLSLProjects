@@ -1,0 +1,22 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 0 0 2  0 0 0  0 1 0
+
+
+Vertex   Proj1.vert
+Fragment Proj1.frag
+Program  Proj1				\
+	uS0 <0. 0.5 1.>				\
+	uT0 <0. 0.5 1.>				\
+	uD <0.1 0.2 1.0>			\
+	uAd <.001 .1 .5>		\
+	uBd <.001 .1 .5>		\
+	uKa <0. 0.1 1.0>			\
+	uKd <0. 0.6 1.0>			\
+	uKs <0. 0.3 1.0>			\
+	uShininess <0.5 10. 50.>		\
+	uTol <0. 0. 1.>
+
+Color 1. .9 0
+Sphere 1 50 50

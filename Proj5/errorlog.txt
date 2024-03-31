@@ -1,0 +1,7 @@
+
+ERROR: 0:35: ''' : character literals not supported 
+ERROR: 0:35: 'assign' :  cannot convert from ' temp float' to ' temp 2-component vector of float'
+ERROR: 0:35: '' : compilation terminated 
+ERROR: 3 compilation errors.  No code generated.
+
+

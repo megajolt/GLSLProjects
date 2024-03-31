@@ -1,0 +1,7 @@
+
+ERROR: 0:19: 'vN' : undeclared identifier 
+ERROR: 0:19: '=' :  cannot convert from ' global float' to ' temp 3-component vector of float'
+ERROR: 0:19: '' : compilation terminated 
+ERROR: 3 compilation errors.  No code generated.
+
+

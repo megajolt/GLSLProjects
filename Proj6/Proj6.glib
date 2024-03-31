@@ -1,0 +1,20 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 0 0 2  0 0 0  0 1 0
+
+
+Vertex   Proj6.vert
+Fragment Proj6.frag
+Program  Proj6				\
+	uKa <0. 0.1 1.0>			\
+	uKd <0. 0.6 1.0>			\
+	uKs <0. 0.3 1.0>			\
+	uAmp <0. 0. 10.0>			\
+	uPeriod <0. 0. 10.0>			\
+	uShininess <0.5 10. 50.> 			
+
+Color 1. .9 0
+Sphere 1. 50 50
+//Obj dragon138.obj
+

@@ -1,0 +1,35 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt -25 25 45  0 0 0  0 1 0
+
+
+
+Vertex   FinalProj.vert
+Fragment FinalProj.frag
+Program  FinalProj				\
+	uKa <0. 0.1 1.0>			\
+	uKd <0. 0.6 1.0>			\
+	uKs <0. 0.3 1.0>			\
+	uAmp <0. 0. 10.0>			\
+	uPeriod <0. 0. 10.0>			\
+	uShininess <0.5 10. 50.> 			
+
+Color 1. .9 0
+Obj dragon138.obj
+
+Texture2D 6 flame.bmp
+
+Vertex Cone.vert
+Fragment Cone.frag
+Program Cone 				\
+	uKa <0. 0.1 1.0>			\
+	uKd <0. 0.6 1.0>			\
+	uKs <0. 0.3 1.0>			\
+	uNoiseScale <0. 0.0 10.0>			\
+	uTexUnit 6			\
+	uShininess <0.5 10. 50.>
+
+Rotate -90  1 0 0
+Translate -.55 -37 19.25
+Cone 2 10

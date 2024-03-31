@@ -1,0 +1,5 @@
+
+ERROR: 0:26: '' :  syntax error, unexpected FLOAT, expecting COMMA or SEMICOLON
+ERROR: 1 compilation errors.  No code generated.
+
+
